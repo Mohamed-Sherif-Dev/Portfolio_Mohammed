@@ -25,6 +25,15 @@ import POROJECT_IMG_5 from "../assets/images/project-5.png"
 import POROJECT_IMG_6 from "../assets/images/project-6.png"
 import POROJECT_IMG_7 from "../assets/images/project-7.png"
 import POROJECT_IMG_8 from "../assets/images/project-8.png"
+import POROJECT_IMG_9 from "../assets/images/project-9.png"
+import POROJECT_IMG_10 from "../assets/images/project10.png"
+import POROJECT_IMG_11 from "../assets/images/project11.png"
+import POROJECT_IMG_12 from "../assets/images/project12.png"
+import POROJECT_IMG_13 from "../assets/images/project16.png"
+import POROJECT_IMG_F15 from "../assets/images/Front-15.png"
+import POROJECT_IMG_b1 from "../assets/images/backend1.jpeg"
+import POROJECT_IMG_14 from "../assets/images/project17.png"
+import Backend2 from "../assets/images/backend2.jfif"
 
 export const SKILLS_CATEGORY =[
 {
@@ -46,7 +55,9 @@ export const SKILLS_CATEGORY =[
     description: "Building scalable and efficient server-side applications",
     skills: [
       { name: "Node.js", level: 90, color: "bg-green-600" },
+      { name: "JavaScript", level: 90, color: "bg-yellow-500" },
       { name: "Express.js", level: 85, color: "bg-gray-700" },
+      { name: "RESTful APIs", level: 90, color: "bg-blue-500" },
       { name: "REST API", level: 88, color: "bg-orange-500" },
       { name: "GraphQL", level: 80, color: "bg-pink-400" },
     ],
@@ -118,6 +129,30 @@ export const PROJECTS = [
     category: "Full Stack",
   },
   {
+    id: 8,
+    title: "E-Commerce Platform",
+    description:
+      "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
+    image: POROJECT_IMG_9,
+    tags: ["React", "Tailwind", "Framer motion"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/EbtehalNeseem/Basket.git",
+    featured: false,
+    category: "Frontend",
+  },
+  {
+    id: 9,
+    title: "E-Commerce Platform",
+    description:
+      "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
+    image: POROJECT_IMG_10,
+    tags: ["React", "Tailwind", "Framer motion"],
+    liveUrl: "#",
+    githubUrl: "#",
+    featured: false,
+    category: "Full Stack",
+  },
+  {
     id: 2,
     title: "Blog App with AI Post Generator",
     description:
@@ -149,7 +184,7 @@ export const PROJECTS = [
     image: POROJECT_IMG_6,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
     liveUrl: "https://youtu.be/ykB90YW-a04",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/TOURISM-Full-Stack",
     featured: false,
     category: "Web App",
   },
@@ -161,7 +196,7 @@ export const PROJECTS = [
     image: POROJECT_IMG_7,
     tags: ["React", "Tailwind", "Framer motion"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/react-deploy-vercal",
     featured: true,
     category: "Web App",
   },
@@ -173,9 +208,93 @@ export const PROJECTS = [
     image: POROJECT_IMG_8,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
     liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
     featured: true,
     category: "Web App",
+  },
+  {
+    id: 7,
+    title: "Full-Satck-Doctors",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_11,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
+    liveUrl: "https://youtu.be/PQnbtnsYUho",
+    githubUrl: "#",
+    featured: true,
+    category: "Full stack",
+  },
+  {
+    id: 8,
+    title: "Frontend-Ecommerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_F15,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
+    liveUrl: "https://youtu.be/PQnbtnsYUho",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Shopping-E-abi-React-2",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 9,
+    title: "Backend-Ecommerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_b1,
+    tags: ["javaScript", "Node.js", "MongoDB", "mongoose" , "express"],
+    liveUrl: "https://youtu.be/PQnbtnsYUho",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Projeact-Backend-Stor",
+    featured: true,
+    category: "Backend",
+  },
+  {
+    id: 10,
+    title: "Frontend-Ecommerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_12,
+    tags: ["React" , "Tailwind" , "Framer motion" , "JavaScript"],
+    liveUrl: "https://youtu.be/PQnbtnsYUho",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/E-commerce",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 11,
+    title: "Frontend-Ecommerce-SPORTS",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_13,
+    tags: ["React" , "Tailwind" , "Framer motion" , "JavaScript", "Supabase"],
+    liveUrl: "https://youtu.be/PQnbtnsYUho",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/SPORTSW-Ecommerc-Frelance-web",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 12,
+    title:"LuxeScent E-Commerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_14,
+    tags: ["React" , "Tailwind" , "Framer motion" , "JavaScript", "Supabase"],
+    liveUrl: "https://youtu.be/PQnbtnsYUho",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/LuxeScent-E-Commerce",
+    featured: true,
+    category: "Frontend",
+  },
+    {
+    id: 9,
+    title: "Backend-Ecommerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: Backend2,
+    tags: ["javaScript", "Node.js", "MongoDB", "mongoose" , "express"],
+    liveUrl: "https://youtu.be/PQnbtnsYUho",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend-Task/tree/main",
+    featured: true,
+    category: "Backend",
   },
 ];
 
@@ -234,6 +353,8 @@ export const JOURNEY_STEPS = [
     icon: Zap,
     color: "bg-cyan-500",
   },
+
+
 ];
 
 

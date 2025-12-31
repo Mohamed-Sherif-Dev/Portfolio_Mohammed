@@ -34,6 +34,8 @@ import POROJECT_IMG_F15 from "../assets/images/Front-15.png"
 import POROJECT_IMG_b1 from "../assets/images/backend1.jpeg"
 import POROJECT_IMG_14 from "../assets/images/project17.png"
 import Backend2 from "../assets/images/backend2.jfif"
+import ProjectNext1 from "../assets/images/Home_Page.png"
+import ProjectRect from"../assets/images/learning-platform-frontend.png"
 
 export const SKILLS_CATEGORY =[
 {
@@ -296,6 +298,30 @@ export const PROJECTS = [
     featured: true,
     category: "Backend",
   },
+  {
+    id: 13,
+    title: "Frontend-Ecommerce_React",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: ProjectRect,
+    tags: ["React" , "Tailwind" , "Framer motion" , "JavaScript"],
+    liveUrl: "https://learning-platform-frontend-dev1.vercel.app/",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/learning-platform-frontend-dev1",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 14,
+    title: "Frontend-Ecommerce_Nextjs",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: ProjectNext1,
+    tags: ["Next.js" , "Tailwind" , "Framer motion" , "JavaScript" , "TypeScript"],
+    liveUrl: "https://website-project-next-one.vercel.app/",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Website-Project-Next-One",
+    featured: true,
+    category: "Frontend",
+  }
 ];
 
 export const JOURNEY_STEPS = [

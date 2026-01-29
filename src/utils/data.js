@@ -1,44 +1,47 @@
 import {
-    Code2,
-    GraduationCap,
-    Briefcase,
-    Award,
-    Rocket,
-    Heart,
-    Coffee,
-    BookOpen,
-    Zap,
-    Database,
-    Server,
-    Cloud,
-    Mail,
-    MapPin,
-    Phone
-} from "lucide-react"
+  Code2,
+  GraduationCap,
+  Briefcase,
+  Award,
+  Rocket,
+  Heart,
+  Coffee,
+  BookOpen,
+  Zap,
+  Database,
+  Server,
+  Cloud,
+  Mail,
+  MapPin,
+  Phone,
+} from "lucide-react";
 
-import { FiGithub, FiLinkedin , FiTwitter } from "react-icons/fi"
+import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
-import POROJECT_IMG_1 from "../assets/images/project-1.jpeg"
-import POROJECT_IMG_3 from "../assets/images/project-3.png"
-import POROJECT_IMG_4 from "../assets/images/project-4.png"
-import POROJECT_IMG_5 from "../assets/images/project-5.png"
-import POROJECT_IMG_6 from "../assets/images/project-6.png"
-import POROJECT_IMG_7 from "../assets/images/project-7.png"
-import POROJECT_IMG_8 from "../assets/images/project-8.png"
-import POROJECT_IMG_9 from "../assets/images/project-9.png"
-import POROJECT_IMG_10 from "../assets/images/project10.png"
-import POROJECT_IMG_11 from "../assets/images/project11.png"
-import POROJECT_IMG_12 from "../assets/images/project12.png"
-import POROJECT_IMG_13 from "../assets/images/project16.png"
-import POROJECT_IMG_F15 from "../assets/images/Front-15.png"
-import POROJECT_IMG_b1 from "../assets/images/backend1.jpeg"
-import POROJECT_IMG_14 from "../assets/images/project17.png"
-import Backend2 from "../assets/images/backend2.jfif"
-import ProjectNext1 from "../assets/images/Home_Page.png"
-import ProjectRect from"../assets/images/learning-platform-frontend.png"
+import POROJECT_IMG_1 from "../assets/images/project-1.jpeg";
+import POROJECT_IMG_3 from "../assets/images/project-3.png";
+import POROJECT_IMG_4 from "../assets/images/project-4.png";
+import POROJECT_IMG_5 from "../assets/images/project-5.png";
+import POROJECT_IMG_6 from "../assets/images/project-6.png";
+import POROJECT_IMG_7 from "../assets/images/project-7.png";
+import POROJECT_IMG_8 from "../assets/images/project-8.png";
+import POROJECT_IMG_9 from "../assets/images/project-9.png";
+import POROJECT_IMG_10 from "../assets/images/project10.png";
+import POROJECT_IMG_11 from "../assets/images/project11.png";
+import POROJECT_IMG_12 from "../assets/images/project12.png";
+import POROJECT_IMG_13 from "../assets/images/project16.png";
+import POROJECT_IMG_F15 from "../assets/images/Front-15.png";
+import POROJECT_IMG_b1 from "../assets/images/backend1.jpeg";
+import POROJECT_IMG_14 from "../assets/images/project17.png";
+import Backend2 from "../assets/images/backend2.jfif";
+import ProjectNext1 from "../assets/images/Home_Page.png";
+import ProjectRect from "../assets/images/learning-platform-frontend.png";
+import appointment from "../assets/images/appointmen.png";
+import safarni from "../assets/images/safarni.png";
+import BACKEND_ECOMMERCE from "../assets/images/backend-ecommerce.jpeg";
 
-export const SKILLS_CATEGORY =[
-{
+export const SKILLS_CATEGORY = [
+  {
     title: "Frontend",
     icon: Code2,
     description: "Crafting beautiful, responsive user interfaces",
@@ -76,6 +79,7 @@ export const SKILLS_CATEGORY =[
       { name: "PostgreSQL", level: 80, color: "bg-indigo-600" },
       { name: "Prisma", level: 80, color: "bg-indigo-600" },
       { name: "Redis", level: 80, color: "bg-indigo-600" },
+      { name: "GraphQL", level: 80, color: "bg-pink-400" },
     ],
   },
 
@@ -89,10 +93,10 @@ export const SKILLS_CATEGORY =[
       { name: "Vercel", level: 90, color: "bg-gray-900" },
       { name: "Git", level: 95, color: "bg-orange-700" },
       { name: "CI/CD", level: 75, color: "bg-purple-600" },
+      { name: "Jenkins", level: 80, color: "bg-indigo-600" },
     ],
   },
-]
-
+];
 
 export const TECH_STACK = [
   "JavaScript",
@@ -115,7 +119,6 @@ export const STATS = [
   { number: "20+", label: "Technologies" },
   { number: "100%", label: "Client Satisfaction" },
 ];
-
 
 export const PROJECTS = [
   {
@@ -210,7 +213,8 @@ export const PROJECTS = [
     image: POROJECT_IMG_8,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
     liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
     featured: true,
     category: "Web App",
   },
@@ -244,7 +248,7 @@ export const PROJECTS = [
     description:
       "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
     image: POROJECT_IMG_b1,
-    tags: ["javaScript", "Node.js", "MongoDB", "mongoose" , "express"],
+    tags: ["javaScript", "Node.js", "MongoDB", "mongoose", "express"],
     liveUrl: "https://youtu.be/PQnbtnsYUho",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/Projeact-Backend-Stor",
     featured: true,
@@ -256,7 +260,7 @@ export const PROJECTS = [
     description:
       "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
     image: POROJECT_IMG_12,
-    tags: ["React" , "Tailwind" , "Framer motion" , "JavaScript"],
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript"],
     liveUrl: "https://youtu.be/PQnbtnsYUho",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/E-commerce",
     featured: true,
@@ -268,31 +272,32 @@ export const PROJECTS = [
     description:
       "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
     image: POROJECT_IMG_13,
-    tags: ["React" , "Tailwind" , "Framer motion" , "JavaScript", "Supabase"],
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "Supabase"],
     liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/SPORTSW-Ecommerc-Frelance-web",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/SPORTSW-Ecommerc-Frelance-web",
     featured: true,
     category: "Frontend",
   },
   {
     id: 12,
-    title:"LuxeScent E-Commerce",
+    title: "LuxeScent E-Commerce",
     description:
       "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
     image: POROJECT_IMG_14,
-    tags: ["React" , "Tailwind" , "Framer motion" , "JavaScript", "Supabase"],
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "Supabase"],
     liveUrl: "https://youtu.be/PQnbtnsYUho",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/LuxeScent-E-Commerce",
     featured: true,
     category: "Frontend",
   },
-    {
+  {
     id: 9,
     title: "Backend-Ecommerce",
     description:
       "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
     image: Backend2,
-    tags: ["javaScript", "Node.js", "MongoDB", "mongoose" , "express"],
+    tags: ["javaScript", "Node.js", "MongoDB", "mongoose", "express"],
     liveUrl: "https://youtu.be/PQnbtnsYUho",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend-Task/tree/main",
     featured: true,
@@ -304,9 +309,10 @@ export const PROJECTS = [
     description:
       "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
     image: ProjectRect,
-    tags: ["React" , "Tailwind" , "Framer motion" , "JavaScript"],
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript"],
     liveUrl: "https://learning-platform-frontend-dev1.vercel.app/",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/learning-platform-frontend-dev1",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/learning-platform-frontend-dev1",
     featured: true,
     category: "Frontend",
   },
@@ -316,11 +322,44 @@ export const PROJECTS = [
     description:
       "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
     image: ProjectNext1,
-    tags: ["Next.js" , "Tailwind" , "Framer motion" , "JavaScript" , "TypeScript"],
+    tags: ["Next.js", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
     liveUrl: "https://website-project-next-one.vercel.app/",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/Website-Project-Next-One",
     featured: true,
     category: "Frontend",
+  },
+  {
+    id: 15,
+    title: "appointment-system",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: appointment,
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
+    liveUrl: "https://appointment-system-sepia.vercel.app/",
+    githubUrl: "https://github.com/Abdulrahmanfawzy/appointment-system.git",
+    featured: true,
+    category: "Training_Team",
+  },
+  {
+    id: 16,
+    title: "safarni",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: safarni,
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Abdulrahmanfawzy/safarni",
+    featured: true,
+    category: "Training_Team",
+  },
+  {
+    id: 17,
+    title: "Backend-Ecommerce",
+    description:"Backend for an e-commerce platform with product management, user authentication, and order processing.",
+    image: BACKEND_ECOMMERCE,
+    tags: ["TypeScript", "Node.js", "Express", "MongoDB", "REST API"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend_typeScript",
   }
 ];
 
@@ -379,10 +418,7 @@ export const JOURNEY_STEPS = [
     icon: Zap,
     color: "bg-cyan-500",
   },
-
-
 ];
-
 
 export const PASSIONS = [
   {
@@ -401,7 +437,6 @@ export const PASSIONS = [
     description: "Always exploring new technologies and best practices",
   },
 ];
-
 
 export const SOCIAL_LINKS = [
   {
@@ -433,7 +468,6 @@ export const SOCIAL_LINKS = [
     bgColor: "hover:bg-red-800",
   },
 ];
-
 
 export const CONTACT_INFO = [
   {

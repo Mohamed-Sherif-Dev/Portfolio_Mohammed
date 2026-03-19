@@ -39,6 +39,7 @@ import ProjectRect from "../assets/images/learning-platform-frontend.png";
 import appointment from "../assets/images/appointmen.png";
 import safarni from "../assets/images/safarni.png";
 import BACKEND_ECOMMERCE from "../assets/images/backend-ecommerce.jpeg";
+import Devgigs from "../assets/images/devgigs.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -360,7 +361,18 @@ export const PROJECTS = [
     tags: ["TypeScript", "Node.js", "Express", "MongoDB", "REST API"],
     liveUrl: "#",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend_typeScript",
-  }
+  },
+  {
+  id: 18,
+  title: "DevGigs",
+  description: "A full-stack SaaS Freelance Job Board where companies post projects and developers find work. Built with Next.js 15, PostgreSQL, Stripe payments, and Google Auth.",
+  image: Devgigs,
+  tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Stripe", "NextAuth", "Tailwind"],
+  liveUrl: "https://devgigs-zeta.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Devgigs",
+  featured: true,
+  category: "Full_Stack",
+},
 ];
 
 export const JOURNEY_STEPS = [

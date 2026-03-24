@@ -40,6 +40,10 @@ import appointment from "../assets/images/appointmen.png";
 import safarni from "../assets/images/safarni.png";
 import BACKEND_ECOMMERCE from "../assets/images/backend-ecommerce.jpeg";
 import Devgigs from "../assets/images/devgigs.png";
+import ai_Task_Manager from "../assets/images/ai-Task.png";
+import NextShop from "../assets/images/NextShop.png";
+import cryptovision from "../assets/images/cryptovision.png";
+import DevCanvas from "../assets/images/DevCanvas.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -356,22 +360,116 @@ export const PROJECTS = [
   {
     id: 17,
     title: "Backend-Ecommerce",
-    description:"Backend for an e-commerce platform with product management, user authentication, and order processing.",
+    description:
+      "Backend for an e-commerce platform with product management, user authentication, and order processing.",
     image: BACKEND_ECOMMERCE,
     tags: ["TypeScript", "Node.js", "Express", "MongoDB", "REST API"],
     liveUrl: "#",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend_typeScript",
   },
   {
-  id: 18,
-  title: "DevGigs",
-  description: "A full-stack SaaS Freelance Job Board where companies post projects and developers find work. Built with Next.js 15, PostgreSQL, Stripe payments, and Google Auth.",
-  image: Devgigs,
-  tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Stripe", "NextAuth", "Tailwind"],
-  liveUrl: "https://devgigs-zeta.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Devgigs",
+    id: 18,
+    title: "DevGigs",
+    description:
+      "A full-stack SaaS Freelance Job Board where companies post projects and developers find work. Built with Next.js 15, PostgreSQL, Stripe payments, and Google Auth.",
+    image: Devgigs,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Stripe",
+      "NextAuth",
+      "Tailwind",
+    ],
+    liveUrl: "https://devgigs-zeta.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Devgigs",
+    featured: true,
+    category: "Full_Stack",
+  },
+  {
+    id: 19,
+    title: "AI Task Manager",
+    description:
+      "A full-stack AI-powered task management platform that helps users transform high-level goals into actionable tasks. Users can create projects, manage tasks, and leverage AI to automatically generate structured task breakdowns. Features secure Google authentication, real-time data handling, and a scalable backend built with Prisma and PostgreSQL. Designed with a clean, modern UI and deployed on Vercel for seamless performance.",
+    image: ai_Task_Manager,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "NextAuth",
+      "Tailwind CSS",
+      "OpenRouter AI",
+    ],
+    liveUrl: "https://ai-task-manager-sage-tau.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Ai-Task-Manager",
+    featured: true,
+    category: "Full_Stack",
+  },
+  {
+    id: 20,
+    title: "NexShop",
+    description:
+      "A full-stack e-commerce platform with secure authentication, Stripe payments, and AI-powered product generation. Built with Next.js, Prisma, PostgreSQL, and integrated with OpenRouter for dynamic product descriptions.",
+    image: NextShop,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "NextAuth",
+      "Stripe",
+      "Tailwind CSS",
+      "OpenRouter AI",
+    ],
+    liveUrl: "https://nex-shop-alpha.vercel.app/",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/NexShop",
+    featured: true,
+    category: "Full_Stack",
+  },
+    {
+    id: 21,
+    title: "CryptoVision",
+    description:
+      "A modern crypto market dashboard that provides real-time prices, portfolio tracking, and interactive charts. Users can monitor top cryptocurrencies and manage their assets through a clean and responsive UI.",
+    image: cryptovision,
+    tags: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "React Query",
+      "Recharts",
+      "Tailwind CSS",
+      "Zustand",
+    ],
+    liveUrl: "https://cryptovision-frontend.vercel.app/",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Cryptovision_frontend",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+  id: 22,
+  title: "DevCanvas",
+  description:
+    "An AI-powered live code editor that allows developers to write HTML, CSS, and JavaScript with real-time preview and AI code generation. Includes smart editor features, templates, and interactive 3D UI.",
+  
+  image: DevCanvas,
+
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Three.js",
+    "CodeMirror",
+    "AI",
+  ],
+
+  liveUrl: "https://devcanvas-frontend.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/devcanvas-Frontend",
+
   featured: true,
-  category: "Full_Stack",
+  category: "Frontend",
 },
 ];
 

@@ -18,6 +18,8 @@ import {
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
+
+
 import POROJECT_IMG_1 from "../assets/images/project-1.jpeg";
 import POROJECT_IMG_3 from "../assets/images/project-3.png";
 import POROJECT_IMG_4 from "../assets/images/project-4.png";
@@ -44,8 +46,27 @@ import ai_Task_Manager from "../assets/images/ai-Task.png";
 import NextShop from "../assets/images/NextShop.png";
 import cryptovision from "../assets/images/cryptovision.png";
 import DevCanvas from "../assets/images/DevCanvas.png";
+import MindFlow from "../assets/images/MindFlow.png";
+import GitPulse from "../assets/images/GitPulse.png";
+import DevMarket_API from "../assets/images/DevMarketAPI.png";
+import ConnectAPI from "../assets/images/ConnectAPI.png";
+import TrackFlow_backend from "../assets/images/TrackFlow-backend.png";
 
-export const SKILLS_CATEGORY = [
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export const  SKILLS_CATEGORY = [
   {
     title: "Frontend",
     icon: Code2,
@@ -471,6 +492,117 @@ export const PROJECTS = [
   featured: true,
   category: "Frontend",
 },
+{
+  id: 23,
+  title: "MindFlow",
+  description:
+    "AI-powered mental wellness and focus app that helps users track mood, improve focus, and build healthy habits with interactive tools and real-time visualizations.",
+  image: MindFlow, 
+
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "WebGL",
+    "Framer Motion",
+    "AI"
+  ],
+
+  liveUrl: "https://mindflow-frontend-pearl.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Mindflow-Frontend",
+
+  featured: true,
+  category: "Frontend",
+},
+{
+  id: 24,
+  title: "GitPuls",
+  description:
+    "An AI-powered GitHub analytics dashboard that provides deep insights into developer profiles, including repository stats, language breakdown, and intelligent developer analysis.",
+
+  image: GitPulse,
+
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "AI",
+    "OpenRouter",
+    "Recharts",
+    "Framer Motion",
+  ],
+
+  liveUrl: "https://git-puls-frontend.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/GitPuls-Frontend",
+
+  featured: true,
+  category: "Frontend",
+},
+{
+  id: 25,
+  title: "DevMarket API",
+  description:
+    "Production-ready backend API for a digital marketplace. Features JWT authentication, refresh tokens, email verification, Stripe payments, Redis caching, file uploads, and scalable architecture using Node.js and TypeScript.",
+  image: DevMarket_API, 
+  tags: [
+    "Node.js",
+    "Express",
+    "TypeScript",
+    "MongoDB",
+    "Redis",
+    "Stripe",
+    "JWT",
+    "Cloudinary",
+  ],
+  liveUrl: "", // مفيش live لأن ده backend
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/DevMarket-AI-Backend",
+  featured: true,
+  category: "Backend",
+},
+{
+  id: 26,
+  title: "ConnectAPI",
+  description:
+    "A production-ready social media REST API featuring real-time interactions, authentication system, posts, comments, likes, and scalable background jobs using queues.",
+  image: ConnectAPI, 
+  tags: [
+    "Node.js",
+    "Express",
+    "TypeScript",
+    "MongoDB",
+    "Socket.io",
+    "Redis",
+    "Bull Queue",
+    "JWT",
+    "Jest",
+    "Docker"
+  ],
+  liveUrl: "", // مفيش deploy غالبًا
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Connecttapi-Backend",
+  featured: true,
+  category: "Backend",
+},
+{
+  id: 27,
+  title: "TrackFlow API",
+  description:
+    "A real-time event analytics backend powered by Apache Kafka and PostgreSQL. Processes high-volume event streams with Redis caching and scalable architecture, similar to Google Analytics but as an API.",
+  image: TrackFlow_backend, 
+  tags: [
+    "Node.js",
+    "TypeScript",
+    "Express",
+    "PostgreSQL",
+    "Prisma",
+    "Kafka",
+    "Redis",
+    "Docker"
+  ],
+  liveUrl: "", // لو هترفعه بعدين
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/TrackFlow-backend",
+  featured: true,
+  category: "Backend",
+}
 ];
 
 export const JOURNEY_STEPS = [

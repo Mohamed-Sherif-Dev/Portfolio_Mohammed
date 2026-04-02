@@ -51,13 +51,11 @@ import GitPulse from "../assets/images/GitPulse.png";
 import DevMarket_API from "../assets/images/DevMarketAPI.png";
 import ConnectAPI from "../assets/images/ConnectAPI.png";
 import TrackFlow_backend from "../assets/images/TrackFlow-backend.png";
-
-
-
-
-
-
-
+import Git_Assistant from "../assets/images/Git_Assistant.png";
+import Git_Assistant2 from "../assets/images/Git_Assistant2.png";
+import API_Contract from "../assets/images/API-Contract.png";
+import HireFlow_AI from "../assets/images/HireFlow.png";
+import NestSocial_API from "../assets/images/NestSocial-API.png";
 
 
 
@@ -147,247 +145,6 @@ export const STATS = [
 ];
 
 export const PROJECTS = [
-  {
-    id: 1,
-    title: "E-Commerce Platform",
-    description:
-      "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
-    image: POROJECT_IMG_3,
-    tags: ["React", "Tailwind", "Framer motion"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: false,
-    category: "Full Stack",
-  },
-  {
-    id: 8,
-    title: "E-Commerce Platform",
-    description:
-      "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
-    image: POROJECT_IMG_9,
-    tags: ["React", "Tailwind", "Framer motion"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/EbtehalNeseem/Basket.git",
-    featured: false,
-    category: "Frontend",
-  },
-  {
-    id: 9,
-    title: "E-Commerce Platform",
-    description:
-      "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
-    image: POROJECT_IMG_10,
-    tags: ["React", "Tailwind", "Framer motion"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: false,
-    category: "Full Stack",
-  },
-  {
-    id: 2,
-    title: "Blog App with AI Post Generator",
-    description:
-      "A full-stack blog app using the MERN stack – with full Markdown support and AI-generated posts.",
-    image: POROJECT_IMG_4,
-    tags: ["React", "Node.js", "MongoDB", "Tailwind"],
-    liveUrl: "https://youtu.be/tUnGudIBBI9",
-    githubUrl: "#",
-    featured: true,
-    category: "Full Stack",
-  },
-  {
-    id: 3,
-    title: "Task Management App",
-    description:
-      "Collaborative project management tool with real-time updates, team chat, and advanced analytics.",
-    image: POROJECT_IMG_5,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
-    liveUrl: "https://youtu.be/IZkS7PzKzC0",
-    githubUrl: "#",
-    featured: true,
-    category: "Web App",
-  },
-  {
-    id: 4,
-    title: "AI-Powered Interview Prep App",
-    description:
-      "A smart AI-powered Interview Preparation App using the MERN stack – along with the Gemini AI API for mock interviews.",
-    image: POROJECT_IMG_6,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
-    liveUrl: "https://youtu.be/ykB90YW-a04",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/TOURISM-Full-Stack",
-    featured: false,
-    category: "Web App",
-  },
-  {
-    id: 5,
-    title: "Resume Builder App",
-    description:
-      "An intuitive resume builder application with live preview and customizable templates.",
-    image: POROJECT_IMG_7,
-    tags: ["React", "Tailwind", "Framer motion"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/react-deploy-vercal",
-    featured: true,
-    category: "Web App",
-  },
-  {
-    id: 6,
-    title: "Expense Tracker App",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: POROJECT_IMG_8,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
-    liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl:
-      "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
-    featured: true,
-    category: "Web App",
-  },
-  {
-    id: 7,
-    title: "Full-Satck-Doctors",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: POROJECT_IMG_11,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
-    liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl: "#",
-    featured: true,
-    category: "Full stack",
-  },
-  {
-    id: 8,
-    title: "Frontend-Ecommerce",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: POROJECT_IMG_F15,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
-    liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Shopping-E-abi-React-2",
-    featured: true,
-    category: "Frontend",
-  },
-  {
-    id: 9,
-    title: "Backend-Ecommerce",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: POROJECT_IMG_b1,
-    tags: ["javaScript", "Node.js", "MongoDB", "mongoose", "express"],
-    liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Projeact-Backend-Stor",
-    featured: true,
-    category: "Backend",
-  },
-  {
-    id: 10,
-    title: "Frontend-Ecommerce",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: POROJECT_IMG_12,
-    tags: ["React", "Tailwind", "Framer motion", "JavaScript"],
-    liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/E-commerce",
-    featured: true,
-    category: "Frontend",
-  },
-  {
-    id: 11,
-    title: "Frontend-Ecommerce-SPORTS",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: POROJECT_IMG_13,
-    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "Supabase"],
-    liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl:
-      "https://github.com/Mohamed-Sherif-Dev/SPORTSW-Ecommerc-Frelance-web",
-    featured: true,
-    category: "Frontend",
-  },
-  {
-    id: 12,
-    title: "LuxeScent E-Commerce",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: POROJECT_IMG_14,
-    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "Supabase"],
-    liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/LuxeScent-E-Commerce",
-    featured: true,
-    category: "Frontend",
-  },
-  {
-    id: 9,
-    title: "Backend-Ecommerce",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: Backend2,
-    tags: ["javaScript", "Node.js", "MongoDB", "mongoose", "express"],
-    liveUrl: "https://youtu.be/PQnbtnsYUho",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend-Task/tree/main",
-    featured: true,
-    category: "Backend",
-  },
-  {
-    id: 13,
-    title: "Frontend-Ecommerce_React",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: ProjectRect,
-    tags: ["React", "Tailwind", "Framer motion", "JavaScript"],
-    liveUrl: "https://learning-platform-frontend-dev1.vercel.app/",
-    githubUrl:
-      "https://github.com/Mohamed-Sherif-Dev/learning-platform-frontend-dev1",
-    featured: true,
-    category: "Frontend",
-  },
-  {
-    id: 14,
-    title: "Frontend-Ecommerce_Nextjs",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: ProjectNext1,
-    tags: ["Next.js", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
-    liveUrl: "https://website-project-next-one.vercel.app/",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Website-Project-Next-One",
-    featured: true,
-    category: "Frontend",
-  },
-  {
-    id: 15,
-    title: "appointment-system",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: appointment,
-    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
-    liveUrl: "https://appointment-system-sepia.vercel.app/",
-    githubUrl: "https://github.com/Abdulrahmanfawzy/appointment-system.git",
-    featured: true,
-    category: "Training_Team",
-  },
-  {
-    id: 16,
-    title: "safarni",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: safarni,
-    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/Abdulrahmanfawzy/safarni",
-    featured: true,
-    category: "Training_Team",
-  },
-  {
-    id: 17,
-    title: "Backend-Ecommerce",
-    description:
-      "Backend for an e-commerce platform with product management, user authentication, and order processing.",
-    image: BACKEND_ECOMMERCE,
-    tags: ["TypeScript", "Node.js", "Express", "MongoDB", "REST API"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend_typeScript",
-  },
   {
     id: 18,
     title: "DevGigs",
@@ -602,7 +359,347 @@ export const PROJECTS = [
   githubUrl: "https://github.com/Mohamed-Sherif-Dev/TrackFlow-backend",
   featured: true,
   category: "Backend",
-}
+},
+{
+  id: 28,
+  title: "Git Assistant (AI Tool)",
+  description: "AI-powered Git assistant that generates commit messages, PR descriptions, branch names, and code reviews. Built to help developers automate repetitive Git tasks and follow best practices.",
+  image: Git_Assistant, 
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind",
+    "OpenRouter API",
+    "LLM",
+    "Developer Tools"
+  ],
+  liveUrl: "https://git-assistant-new-frontend.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Git-Assistant_NEW_Frontend",
+  featured: true,
+  category: "Frontend"
+},
+{
+  id: 29,
+  title: "Debug Companion – AI Debugging Tool",
+  description: "AI-powered debugging assistant that analyzes error messages and stack traces to provide clear explanations, root causes, and actionable fixes. Helps developers resolve issues faster without searching manually.",
+  image: Git_Assistant2,
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind",
+    "OpenRouter API",
+    "LLM",
+    "Developer Tools"
+  ],
+  liveUrl: "https://debug-companion-frontend-new.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Debug-Companion-Frontend_new",
+  featured: true,
+  category: "Frontend"
+},
+{
+  id: 30,
+  title: "API Contract Validator 🛡️",
+  description: "A developer tool that detects mismatches between frontend expected schema and backend API responses. Helps catch type errors, missing fields, and naming conflicts before production.",
+  image: API_Contract, 
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind",
+    "Monaco Editor",
+    "OpenRouter API",
+    "LLM",
+    "Developer Tools"
+  ],
+  liveUrl: "https://api-contract-validator-new.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Api-Contract-Validator_New",
+  featured: true,
+  category: "Frontend"
+},
+{
+  id: 31,
+  title: "HireFlow 🚀",
+  description:
+    "AI-powered recruitment platform that analyzes CVs, matches candidates with jobs, and automates hiring workflows using intelligent scoring and job recommendations.",
+  image: HireFlow_AI,
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "PostgreSQL",
+    "Prisma",
+    "NextAuth",
+    "OpenRouter API",
+    "LLM",
+    "AI",
+    "Full Stack"
+  ],
+  liveUrl: "https://hire-flow-full-stack.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/HireFlow_Full_Stack",
+  featured: true,
+  category: "Fullstack"
+},
+{
+  id: 32,
+  title: "NestSocial API 🚀",
+  description:
+    "Production-ready social media REST API built with NestJS. Features authentication (JWT + refresh tokens), real-time notifications with WebSockets, scalable architecture, and full test coverage.",
+  image: NestSocial_API, 
+  tags: [
+    "NestJS",
+    "TypeScript",
+    "PostgreSQL",
+    "Redis",
+    "WebSockets",
+    "JWT",
+    "Docker",
+    "Full Stack",
+  ],
+  liveUrl: "", // سيبها فاضية دلوقتي (لأن Vercel مش شغال)
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Nest-Social",
+  featured: true,
+  category: "Fullstack",
+},
+  {
+    id: 1,
+    title: "E-Commerce Platform",
+    description:
+      "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
+    image: POROJECT_IMG_3,
+    tags: ["React", "Tailwind", "Framer motion"],
+    liveUrl: "#",
+    githubUrl: "#",
+    featured: false,
+    category: "Full Stack",
+  },
+  {
+    id: 8,
+    title: "E-Commerce Platform",
+    description:
+      "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
+    image: POROJECT_IMG_9,
+    tags: ["React", "Tailwind", "Framer motion"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/EbtehalNeseem/Basket.git",
+    featured: false,
+    category: "Frontend",
+  },
+  {
+    id: 9,
+    title: "E-Commerce Platform",
+    description:
+      "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
+    image: POROJECT_IMG_10,
+    tags: ["React", "Tailwind", "Framer motion"],
+    liveUrl: "#",
+    githubUrl: "#",
+    featured: false,
+    category: "Full Stack",
+  },
+  {
+    id: 2,
+    title: "Blog App with AI Post Generator",
+    description:
+      "A full-stack blog app using the MERN stack – with full Markdown support and AI-generated posts.",
+    image: POROJECT_IMG_4,
+    tags: ["React", "Node.js", "MongoDB", "Tailwind"],
+    liveUrl: "https://youtu.be/tUnGudIBBI9",
+    githubUrl: "#",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: 3,
+    title: "Task Management App",
+    description:
+      "Collaborative project management tool with real-time updates, team chat, and advanced analytics.",
+    image: POROJECT_IMG_5,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
+    liveUrl: "#",
+    githubUrl: "#",
+    featured: true,
+    category: "Web App",
+  },
+  {
+    id: 4,
+    title: "AI-Powered Interview Prep App",
+    description:
+      "A smart AI-powered Interview Preparation App using the MERN stack – along with the Gemini AI API for mock interviews.",
+    image: POROJECT_IMG_6,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/TOURISM-Full-Stack",
+    featured: false,
+    category: "Web App",
+  },
+  {
+    id: 5,
+    title: "Resume Builder App",
+    description:
+      "An intuitive resume builder application with live preview and customizable templates.",
+    image: POROJECT_IMG_7,
+    tags: ["React", "Tailwind", "Framer motion"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/react-deploy-vercal",
+    featured: true,
+    category: "Web App",
+  },
+  {
+    id: 6,
+    title: "Expense Tracker App",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_8,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
+    liveUrl: "#",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
+    featured: true,
+    category: "Web App",
+  },
+  {
+    id: 7,
+    title: "Full-Satck-Doctors",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_11,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
+    liveUrl: "#",
+    githubUrl: "#",
+    featured: true,
+    category: "Full stack",
+  },
+  {
+    id: 8,
+    title: "Frontend-Ecommerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_F15,
+    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Shopping-E-abi-React-2",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 9,
+    title: "Backend-Ecommerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_b1,
+    tags: ["javaScript", "Node.js", "MongoDB", "mongoose", "express"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Projeact-Backend-Stor",
+    featured: true,
+    category: "Backend",
+  },
+  {
+    id: 10,
+    title: "Frontend-Ecommerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_12,
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/E-commerce",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 11,
+    title: "Frontend-Ecommerce-SPORTS",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_13,
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "Supabase"],
+    liveUrl: "#",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/SPORTSW-Ecommerc-Frelance-web",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 12,
+    title: "LuxeScent E-Commerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: POROJECT_IMG_14,
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "Supabase"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/LuxeScent-E-Commerce",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 9,
+    title: "Backend-Ecommerce",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: Backend2,
+    tags: ["javaScript", "Node.js", "MongoDB", "mongoose", "express"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend-Task/tree/main",
+    featured: true,
+    category: "Backend",
+  },
+  {
+    id: 13,
+    title: "Frontend-Ecommerce_React",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: ProjectRect,
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript"],
+    liveUrl: "https://learning-platform-frontend-dev1.vercel.app",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/learning-platform-frontend-dev1",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 14,
+    title: "Frontend-Ecommerce_Nextjs",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: ProjectNext1,
+    tags: ["Next.js", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
+    liveUrl: "https://website-project-next-one.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Website-Project-Next-One",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 15,
+    title: "appointment-system",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: appointment,
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
+    liveUrl: "https://appointment-system-sepia.vercel.app",
+    githubUrl: "https://github.com/Abdulrahmanfawzy/appointment-system.git",
+    featured: true,
+    category: "Training_Team",
+  },
+  {
+    id: 16,
+    title: "safarni",
+    description:
+      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+    image: safarni,
+    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Abdulrahmanfawzy/safarni",
+    featured: true,
+    category: "Training_Team",
+  },
+  {
+    id: 17,
+    title: "Backend-Ecommerce",
+    description:
+      "Backend for an e-commerce platform with product management, user authentication, and order processing.",
+    image: BACKEND_ECOMMERCE,
+    tags: ["TypeScript", "Node.js", "Express", "MongoDB", "REST API"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend_typeScript",
+  },
+
 ];
 
 export const JOURNEY_STEPS = [

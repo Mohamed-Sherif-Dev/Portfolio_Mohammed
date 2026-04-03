@@ -56,8 +56,8 @@ import Git_Assistant2 from "../assets/images/Git_Assistant2.png";
 import API_Contract from "../assets/images/API-Contract.png";
 import HireFlow_AI from "../assets/images/HireFlow.png";
 import NestSocial_API from "../assets/images/NestSocial-API.png";
-
-
+import LUXE from "../assets/images/LUXE.png";
+import Safarni from "../assets/images/safarni.png";
 
 
 
@@ -145,6 +145,44 @@ export const STATS = [
 ];
 
 export const PROJECTS = [
+{
+  id: 34,
+  title: "Safarni",
+  description:
+    "A full-stack travel booking platform where users can search and book flights, hotels, tours, and car rentals. Built with Next.js 15, Prisma, PostgreSQL (Neon), and NextAuth with a modern UI and real-world features like authentication, checkout, and booking management.",
+  image: Safarni,
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL",
+    "NextAuth",
+    "Tailwind",
+    "Stripe"
+  ],
+  liveUrl: "https://safarni-full-stack-develop.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Safarni-Full-stack-develop",
+  featured: true,
+  category: "Fullstack",
+},
+{
+  id: 33,
+  title: "LUXE",
+  description:
+    "A premium luxury e-commerce frontend for accessories including watches, rings, necklaces, bracelets, and sunglasses. Built with Next.js 15 and designed with a modern dark UI and smooth animations.",
+  image: LUXE, // حط هنا اسم الصورة عندك
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Zustand"
+  ],
+  liveUrl: "https://luxe-frontend-two.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/LUXE-FRONTEND",
+  featured: true,
+  category: "Frontend",
+},
   {
     id: 18,
     title: "DevGigs",

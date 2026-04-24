@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, Mail } from "lucide-react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { useTheme } from "../../context/ThemeContext";
-import PROFILE_PIC from "../../assets/images/project-1.jpeg";
+import PROFILE_PIC from "../../assets/images/Mohamed.jpeg";
 import { containerVariants, itemVariants } from "../../utils/helper";
 
 const HeroSection = () => {

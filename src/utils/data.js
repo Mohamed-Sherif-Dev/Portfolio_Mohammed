@@ -19,8 +19,6 @@ import {
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 
-
-import POROJECT_IMG_1 from "../assets/images/project-1.jpeg";
 import POROJECT_IMG_3 from "../assets/images/project-3.png";
 import POROJECT_IMG_4 from "../assets/images/project-4.png";
 import POROJECT_IMG_5 from "../assets/images/project-5.png";
@@ -58,13 +56,13 @@ import HireFlow_AI from "../assets/images/HireFlow.png";
 import NestSocial_API from "../assets/images/NestSocial-API.png";
 import LUXE from "../assets/images/LUXE.png";
 import Safarni from "../assets/images/safarni.png";
+import DtaPlus from "../assets/images/DataPulse.png";
+import RestoProe from "../assets/images/RestoProe.png";
+import Swagger from "../assets/images/Swagger.png";
+import SaaSPlatfor from "../assets/images/SaaS-Platfor.png";
+import DoctorBook from "../assets/images/DoctorBook.png";
 
-
-
-
-
-
-export const  SKILLS_CATEGORY = [
+export const SKILLS_CATEGORY = [
   {
     title: "Frontend",
     icon: Code2,
@@ -74,7 +72,6 @@ export const  SKILLS_CATEGORY = [
       { name: "TypeScript", level: 90, color: "bg-blue-600" },
       { name: "Next.js", level: 88, color: "bg-gray-800" },
       { name: "Tailwind CSS", level: 92, color: "bg-cyan-500" },
-      { name: "Framer Motion", level: 85, color: "bg-pink-500" },
     ],
   },
 
@@ -86,9 +83,7 @@ export const  SKILLS_CATEGORY = [
       { name: "Node.js", level: 90, color: "bg-green-600" },
       { name: "JavaScript", level: 90, color: "bg-yellow-500" },
       { name: "Express.js", level: 85, color: "bg-gray-700" },
-      { name: "RESTful APIs", level: 90, color: "bg-blue-500" },
       { name: "REST API", level: 88, color: "bg-orange-500" },
-      { name: "GraphQL", level: 80, color: "bg-pink-400" },
     ],
   },
 
@@ -98,12 +93,9 @@ export const  SKILLS_CATEGORY = [
     description: "Designing and managing data storage solutions",
     skills: [
       { name: "MongoDB", level: 87, color: "bg-green-600" },
-      { name: "MongoDb", level: 87, color: "bg-green-700" },
       { name: "MySQL", level: 82, color: "bg-blue-600" },
       { name: "PostgreSQL", level: 80, color: "bg-indigo-600" },
       { name: "Prisma", level: 80, color: "bg-indigo-600" },
-      { name: "Redis", level: 80, color: "bg-indigo-600" },
-      { name: "GraphQL", level: 80, color: "bg-pink-400" },
     ],
   },
 
@@ -113,11 +105,8 @@ export const  SKILLS_CATEGORY = [
     description: "Deploying and scaling applications",
     skills: [
       { name: "Docker", level: 82, color: "bg-blue-600" },
-      { name: "AWS", level: 78, color: "bg-orange-600" },
       { name: "Vercel", level: 90, color: "bg-gray-900" },
       { name: "Git", level: 95, color: "bg-orange-700" },
-      { name: "CI/CD", level: 75, color: "bg-purple-600" },
-      { name: "Jenkins", level: 80, color: "bg-indigo-600" },
     ],
   },
 ];
@@ -126,15 +115,16 @@ export const TECH_STACK = [
   "JavaScript",
   "HTML5",
   "CSS3",
-  "Sass",
-  "Webpack",
   "Vite",
-  "Jest",
-  "Cypress",
   "Figma",
-  "Adobe XD",
   "Notion",
-  "Slack",
+  "Tailwind CSS",
+  "React",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+
 ];
 
 export const STATS = [
@@ -145,44 +135,136 @@ export const STATS = [
 ];
 
 export const PROJECTS = [
-{
-  id: 34,
-  title: "Safarni",
-  description:
-    "A full-stack travel booking platform where users can search and book flights, hotels, tours, and car rentals. Built with Next.js 15, Prisma, PostgreSQL (Neon), and NextAuth with a modern UI and real-world features like authentication, checkout, and booking management.",
-  image: Safarni,
+  {
+  id: 39,
+  title: "Doctor Appointment Booking System",
+  description: "Full-stack healthcare booking system where patients can browse doctors, schedule appointments, and manage bookings. Includes role-based dashboards for patients, doctors, and admins, JWT authentication with refresh tokens, and a scalable backend architecture.",
+  image: DoctorBook,
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "Prisma",
+    "PostgreSQL",
+    "JWT",
+    "RBAC",
+    "Zod",
+    "Cloudinary"
+  ],
+  liveUrl: "",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Doctor-Booking-Systems",
+  featured: true,
+  category: "Full Stack"
+},
+  {
+  id: 38,
+  title: "Enterprise SaaS Platform (Multi-Tenant System)",
+  description: "Production-ready SaaS platform built with Next.js 15. Features multi-tenant architecture, authentication (JWT + OAuth), role-based access control (RBAC), subscription billing system, API keys, webhooks, and a full admin dashboard.",
+  image: SaaSPlatfor,
   tags: [
     "Next.js",
     "TypeScript",
     "Prisma",
     "PostgreSQL",
+    "Neon",
     "NextAuth",
-    "Tailwind",
-    "Stripe"
+    "JWT",
+    "OAuth",
+    "RBAC",
+    "SaaS",
+    "Multi-Tenant"
   ],
-  liveUrl: "https://safarni-full-stack-develop.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Safarni-Full-stack-develop",
+  liveUrl: "https://saas-platform-lovat.vercel.app",
+  githubUrl: "https://github.com/Mohamed-Sherif-Dev/saas-platform",
   featured: true,
-  category: "Fullstack",
+  category: "Full Stack"
 },
-{
-  id: 33,
-  title: "LUXE",
-  description:
-    "A premium luxury e-commerce frontend for accessories including watches, rings, necklaces, bracelets, and sunglasses. Built with Next.js 15 and designed with a modern dark UI and smooth animations.",
-  image: LUXE, // حط هنا اسم الصورة عندك
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "Framer Motion",
-    "Zustand"
-  ],
-  liveUrl: "https://luxe-frontend-two.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/LUXE-FRONTEND",
-  featured: true,
-  category: "Frontend",
-},
+  {
+    id: 37,
+    title: "Scalable Auth System – Enterprise Authentication API",
+    description:
+      "Production-ready authentication and authorization system built with NestJS. Features JWT access & refresh tokens with rotation, RBAC, OAuth (Google & GitHub), 2FA, email verification, Redis-based token blacklisting, and advanced security mechanisms like rate limiting and brute-force protection.",
+    image: Swagger,
+    tags: [
+      "NestJS",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "JWT",
+      "OAuth",
+      "RBAC",
+    ],
+    liveUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Scalable-Auth-System",
+    featured: true,
+    category: "Backend",
+  },
+  {
+    id: 36,
+    title: "RestoPro – Restaurant Admin Dashboard",
+    description:
+      "Modern restaurant management dashboard with real-time analytics, order tracking, and full CRUD operations. Features interactive charts, dark/light mode, and optimized state management using Zustand.",
+    image: RestoProe,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Zustand",
+      "Recharts",
+      "Framer Motion",
+    ],
+    liveUrl: "https://resto-pro-frontend.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/RestoPro_Frontend",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 35,
+    title: "DataPulse – Analytics Dashboard",
+    description:
+      "A modern analytics dashboard built with Next.js 15, featuring real-time data visualization, interactive charts, and a complete admin interface for monitoring users, revenue, and system performance. Includes dashboards, analytics tracking, user management, and order monitoring.",
+    image: DtaPlus,
+    tags: ["Next.js", "TypeScript", "Tailwind", "Recharts", "Framer Motion"],
+    liveUrl: "https://data-plus-blush.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/DATA_Plus",
+    featured: false,
+    category: "Frontend",
+  },
+  {
+    id: 34,
+    title: "Safarni",
+    description:
+      "A full-stack travel booking platform where users can search and book flights, hotels, tours, and car rentals. Built with Next.js 15, Prisma, PostgreSQL (Neon), and NextAuth with a modern UI and real-world features like authentication, checkout, and booking management.",
+    image: Safarni,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "NextAuth",
+      "Tailwind",
+      "Stripe",
+    ],
+    liveUrl: "https://safarni-full-stack-develop.vercel.app",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/Safarni-Full-stack-develop",
+    featured: true,
+    category: "Fullstack",
+  },
+  {
+    id: 33,
+    title: "LUXE",
+    description:
+      "A premium luxury e-commerce frontend for accessories including watches, rings, necklaces, bracelets, and sunglasses. Built with Next.js 15 and designed with a modern dark UI and smooth animations.",
+    image: LUXE, // حط هنا اسم الصورة عندك
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Zustand"],
+    liveUrl: "https://luxe-frontend-two.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/LUXE-FRONTEND",
+    featured: true,
+    category: "Frontend",
+  },
   {
     id: 18,
     title: "DevGigs",
@@ -244,7 +326,7 @@ export const PROJECTS = [
     featured: true,
     category: "Full_Stack",
   },
-    {
+  {
     id: 21,
     title: "CryptoVision",
     description:
@@ -265,237 +347,243 @@ export const PROJECTS = [
     category: "Frontend",
   },
   {
-  id: 22,
-  title: "DevCanvas",
-  description:
-    "An AI-powered live code editor that allows developers to write HTML, CSS, and JavaScript with real-time preview and AI code generation. Includes smart editor features, templates, and interactive 3D UI.",
-  
-  image: DevCanvas,
+    id: 22,
+    title: "DevCanvas",
+    description:
+      "An AI-powered live code editor that allows developers to write HTML, CSS, and JavaScript with real-time preview and AI code generation. Includes smart editor features, templates, and interactive 3D UI.",
 
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "Three.js",
-    "CodeMirror",
-    "AI",
-  ],
+    image: DevCanvas,
 
-  liveUrl: "https://devcanvas-frontend.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/devcanvas-Frontend",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Three.js",
+      "CodeMirror",
+      "AI",
+    ],
 
-  featured: true,
-  category: "Frontend",
-},
-{
-  id: 23,
-  title: "MindFlow",
-  description:
-    "AI-powered mental wellness and focus app that helps users track mood, improve focus, and build healthy habits with interactive tools and real-time visualizations.",
-  image: MindFlow, 
+    liveUrl: "https://devcanvas-frontend.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/devcanvas-Frontend",
 
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "WebGL",
-    "Framer Motion",
-    "AI"
-  ],
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 23,
+    title: "MindFlow",
+    description:
+      "AI-powered mental wellness and focus app that helps users track mood, improve focus, and build healthy habits with interactive tools and real-time visualizations.",
+    image: MindFlow,
 
-  liveUrl: "https://mindflow-frontend-pearl.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Mindflow-Frontend",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "WebGL",
+      "Framer Motion",
+      "AI",
+    ],
 
-  featured: true,
-  category: "Frontend",
-},
-{
-  id: 24,
-  title: "GitPuls",
-  description:
-    "An AI-powered GitHub analytics dashboard that provides deep insights into developer profiles, including repository stats, language breakdown, and intelligent developer analysis.",
+    liveUrl: "https://mindflow-frontend-pearl.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Mindflow-Frontend",
 
-  image: GitPulse,
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 24,
+    title: "GitPuls",
+    description:
+      "An AI-powered GitHub analytics dashboard that provides deep insights into developer profiles, including repository stats, language breakdown, and intelligent developer analysis.",
 
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "AI",
-    "OpenRouter",
-    "Recharts",
-    "Framer Motion",
-  ],
+    image: GitPulse,
 
-  liveUrl: "https://git-puls-frontend.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/GitPuls-Frontend",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "AI",
+      "OpenRouter",
+      "Recharts",
+      "Framer Motion",
+    ],
 
-  featured: true,
-  category: "Frontend",
-},
-{
-  id: 25,
-  title: "DevMarket API",
-  description:
-    "Production-ready backend API for a digital marketplace. Features JWT authentication, refresh tokens, email verification, Stripe payments, Redis caching, file uploads, and scalable architecture using Node.js and TypeScript.",
-  image: DevMarket_API, 
-  tags: [
-    "Node.js",
-    "Express",
-    "TypeScript",
-    "MongoDB",
-    "Redis",
-    "Stripe",
-    "JWT",
-    "Cloudinary",
-  ],
-  liveUrl: "", // مفيش live لأن ده backend
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/DevMarket-AI-Backend",
-  featured: true,
-  category: "Backend",
-},
-{
-  id: 26,
-  title: "ConnectAPI",
-  description:
-    "A production-ready social media REST API featuring real-time interactions, authentication system, posts, comments, likes, and scalable background jobs using queues.",
-  image: ConnectAPI, 
-  tags: [
-    "Node.js",
-    "Express",
-    "TypeScript",
-    "MongoDB",
-    "Socket.io",
-    "Redis",
-    "Bull Queue",
-    "JWT",
-    "Jest",
-    "Docker"
-  ],
-  liveUrl: "", // مفيش deploy غالبًا
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Connecttapi-Backend",
-  featured: true,
-  category: "Backend",
-},
-{
-  id: 27,
-  title: "TrackFlow API",
-  description:
-    "A real-time event analytics backend powered by Apache Kafka and PostgreSQL. Processes high-volume event streams with Redis caching and scalable architecture, similar to Google Analytics but as an API.",
-  image: TrackFlow_backend, 
-  tags: [
-    "Node.js",
-    "TypeScript",
-    "Express",
-    "PostgreSQL",
-    "Prisma",
-    "Kafka",
-    "Redis",
-    "Docker"
-  ],
-  liveUrl: "", // لو هترفعه بعدين
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/TrackFlow-backend",
-  featured: true,
-  category: "Backend",
-},
-{
-  id: 28,
-  title: "Git Assistant (AI Tool)",
-  description: "AI-powered Git assistant that generates commit messages, PR descriptions, branch names, and code reviews. Built to help developers automate repetitive Git tasks and follow best practices.",
-  image: Git_Assistant, 
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "Tailwind",
-    "OpenRouter API",
-    "LLM",
-    "Developer Tools"
-  ],
-  liveUrl: "https://git-assistant-new-frontend.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Git-Assistant_NEW_Frontend",
-  featured: true,
-  category: "Frontend"
-},
-{
-  id: 29,
-  title: "Debug Companion – AI Debugging Tool",
-  description: "AI-powered debugging assistant that analyzes error messages and stack traces to provide clear explanations, root causes, and actionable fixes. Helps developers resolve issues faster without searching manually.",
-  image: Git_Assistant2,
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "Tailwind",
-    "OpenRouter API",
-    "LLM",
-    "Developer Tools"
-  ],
-  liveUrl: "https://debug-companion-frontend-new.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Debug-Companion-Frontend_new",
-  featured: true,
-  category: "Frontend"
-},
-{
-  id: 30,
-  title: "API Contract Validator 🛡️",
-  description: "A developer tool that detects mismatches between frontend expected schema and backend API responses. Helps catch type errors, missing fields, and naming conflicts before production.",
-  image: API_Contract, 
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "Tailwind",
-    "Monaco Editor",
-    "OpenRouter API",
-    "LLM",
-    "Developer Tools"
-  ],
-  liveUrl: "https://api-contract-validator-new.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Api-Contract-Validator_New",
-  featured: true,
-  category: "Frontend"
-},
-{
-  id: 31,
-  title: "HireFlow 🚀",
-  description:
-    "AI-powered recruitment platform that analyzes CVs, matches candidates with jobs, and automates hiring workflows using intelligent scoring and job recommendations.",
-  image: HireFlow_AI,
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "PostgreSQL",
-    "Prisma",
-    "NextAuth",
-    "OpenRouter API",
-    "LLM",
-    "AI",
-    "Full Stack"
-  ],
-  liveUrl: "https://hire-flow-full-stack.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/HireFlow_Full_Stack",
-  featured: true,
-  category: "Fullstack"
-},
-{
-  id: 32,
-  title: "NestSocial API 🚀",
-  description:
-    "Production-ready social media REST API built with NestJS. Features authentication (JWT + refresh tokens), real-time notifications with WebSockets, scalable architecture, and full test coverage.",
-  image: NestSocial_API, 
-  tags: [
-    "NestJS",
-    "TypeScript",
-    "PostgreSQL",
-    "Redis",
-    "WebSockets",
-    "JWT",
-    "Docker",
-    "Full Stack",
-  ],
-  liveUrl: "", // سيبها فاضية دلوقتي (لأن Vercel مش شغال)
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Nest-Social",
-  featured: true,
-  category: "Fullstack",
-},
+    liveUrl: "https://git-puls-frontend.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/GitPuls-Frontend",
+
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 25,
+    title: "DevMarket API",
+    description:
+      "Production-ready backend API for a digital marketplace. Features JWT authentication, refresh tokens, email verification, Stripe payments, Redis caching, file uploads, and scalable architecture using Node.js and TypeScript.",
+    image: DevMarket_API,
+    tags: [
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "MongoDB",
+      "Redis",
+      "Stripe",
+      "JWT",
+      "Cloudinary",
+    ],
+    liveUrl: "", // مفيش live لأن ده backend
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/DevMarket-AI-Backend",
+    featured: true,
+    category: "Backend",
+  },
+  {
+    id: 26,
+    title: "ConnectAPI",
+    description:
+      "A production-ready social media REST API featuring real-time interactions, authentication system, posts, comments, likes, and scalable background jobs using queues.",
+    image: ConnectAPI,
+    tags: [
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "MongoDB",
+      "Socket.io",
+      "Redis",
+      "Bull Queue",
+      "JWT",
+      "Jest",
+      "Docker",
+    ],
+    liveUrl: "",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Connecttapi-Backend",
+    featured: true,
+    category: "Backend",
+  },
+  {
+    id: 27,
+    title: "TrackFlow API",
+    description:
+      "A real-time event analytics backend powered by Apache Kafka and PostgreSQL. Processes high-volume event streams with Redis caching and scalable architecture, similar to Google Analytics but as an API.",
+    image: TrackFlow_backend,
+    tags: [
+      "Node.js",
+      "TypeScript",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "Kafka",
+      "Redis",
+      "Docker",
+    ],
+    liveUrl: "", // لو هترفعه بعدين
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/TrackFlow-backend",
+    featured: true,
+    category: "Backend",
+  },
+  {
+    id: 28,
+    title: "Git Assistant (AI Tool)",
+    description:
+      "AI-powered Git assistant that generates commit messages, PR descriptions, branch names, and code reviews. Built to help developers automate repetitive Git tasks and follow best practices.",
+    image: Git_Assistant,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "OpenRouter API",
+      "LLM",
+      "Developer Tools",
+    ],
+    liveUrl: "https://git-assistant-new-frontend.vercel.app",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/Git-Assistant_NEW_Frontend",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 29,
+    title: "Debug Companion – AI Debugging Tool",
+    description:
+      "AI-powered debugging assistant that analyzes error messages and stack traces to provide clear explanations, root causes, and actionable fixes. Helps developers resolve issues faster without searching manually.",
+    image: Git_Assistant2,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "OpenRouter API",
+      "LLM",
+      "Developer Tools",
+    ],
+    liveUrl: "https://debug-companion-frontend-new.vercel.app",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/Debug-Companion-Frontend_new",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 30,
+    title: "API Contract Validator 🛡️",
+    description:
+      "A developer tool that detects mismatches between frontend expected schema and backend API responses. Helps catch type errors, missing fields, and naming conflicts before production.",
+    image: API_Contract,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Monaco Editor",
+      "OpenRouter API",
+      "LLM",
+      "Developer Tools",
+    ],
+    liveUrl: "https://api-contract-validator-new.vercel.app",
+    githubUrl:
+      "https://github.com/Mohamed-Sherif-Dev/Api-Contract-Validator_New",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 31,
+    title: "HireFlow 🚀",
+    description:
+      "AI-powered recruitment platform that analyzes CVs, matches candidates with jobs, and automates hiring workflows using intelligent scoring and job recommendations.",
+    image: HireFlow_AI,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "NextAuth",
+      "OpenRouter API",
+      "LLM",
+      "AI",
+      "Full Stack",
+    ],
+    liveUrl: "https://hire-flow-full-stack.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/HireFlow_Full_Stack",
+    featured: true,
+    category: "Fullstack",
+  },
+  {
+    id: 32,
+    title: "NestSocial API 🚀",
+    description:
+      "Production-ready social media REST API built with NestJS. Features authentication (JWT + refresh tokens), real-time notifications with WebSockets, scalable architecture, and full test coverage.",
+    image: NestSocial_API,
+    tags: [
+      "NestJS",
+      "TypeScript",
+      "PostgreSQL",
+      "Redis",
+      "WebSockets",
+      "JWT",
+      "Docker",
+      "Full Stack",
+    ],
+    liveUrl: "", // سيبها فاضية دلوقتي (لأن Vercel مش شغال)
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Nest-Social",
+    featured: true,
+    category: "Fullstack",
+  },
   {
     id: 1,
     title: "E-Commerce Platform",
@@ -737,7 +825,6 @@ export const PROJECTS = [
     liveUrl: "#",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/Backend_typeScript",
   },
-
 ];
 
 export const JOURNEY_STEPS = [

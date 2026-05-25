@@ -18,7 +18,6 @@ import {
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
-
 import POROJECT_IMG_3 from "../assets/images/project-3.png";
 import POROJECT_IMG_4 from "../assets/images/project-4.png";
 import POROJECT_IMG_5 from "../assets/images/project-5.png";
@@ -61,7 +60,7 @@ import RestoProe from "../assets/images/RestoProe.png";
 import Swagger from "../assets/images/Swagger.png";
 import SaaSPlatfor from "../assets/images/SaaS-Platfor.png";
 import DoctorBook from "../assets/images/DoctorBook.png";
-
+import Platfrom from "../assets/images/Platfrom.png";
 export const SKILLS_CATEGORY = [
   {
     title: "Frontend",
@@ -124,7 +123,6 @@ export const TECH_STACK = [
   "Node.js",
   "Express.js",
   "MongoDB",
-
 ];
 
 export const STATS = [
@@ -136,50 +134,79 @@ export const STATS = [
 
 export const PROJECTS = [
   {
-  id: 39,
-  title: "Doctor Appointment Booking System",
-  description: "Full-stack healthcare booking system where patients can browse doctors, schedule appointments, and manage bookings. Includes role-based dashboards for patients, doctors, and admins, JWT authentication with refresh tokens, and a scalable backend architecture.",
-  image: DoctorBook,
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "Node.js",
-    "Express",
-    "Prisma",
-    "PostgreSQL",
-    "JWT",
-    "RBAC",
-    "Zod",
-    "Cloudinary"
-  ],
-  liveUrl: "",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/Doctor-Booking-Systems",
-  featured: true,
-  category: "Full Stack"
-},
+    id: 40,
+    title: "SupplyChain Pro – Supplier Relationship Platform",
+    description:
+      "Enterprise-grade supplier relationship management platform for managing suppliers, purchase orders, contracts, payments, and analytics. Built for real business workflows with advanced reporting and procurement operations.",
+
+    image: Platfrom,
+
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "Redis",
+      "Tailwind",
+      "JWT",
+      "RBAC",
+      "Analytics",
+    ],
+
+    liveUrl: "https://srm-platform-beige.vercel.app/dashboard",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/SRM-Platform",
+
+    featured: true,
+    category: "Full Stack",
+  },
   {
-  id: 38,
-  title: "Enterprise SaaS Platform (Multi-Tenant System)",
-  description: "Production-ready SaaS platform built with Next.js 15. Features multi-tenant architecture, authentication (JWT + OAuth), role-based access control (RBAC), subscription billing system, API keys, webhooks, and a full admin dashboard.",
-  image: SaaSPlatfor,
-  tags: [
-    "Next.js",
-    "TypeScript",
-    "Prisma",
-    "PostgreSQL",
-    "Neon",
-    "NextAuth",
-    "JWT",
-    "OAuth",
-    "RBAC",
-    "SaaS",
-    "Multi-Tenant"
-  ],
-  liveUrl: "https://saas-platform-lovat.vercel.app",
-  githubUrl: "https://github.com/Mohamed-Sherif-Dev/saas-platform",
-  featured: true,
-  category: "Full Stack"
-},
+    id: 39,
+    title: "Doctor Appointment Booking System",
+    description:
+      "Full-stack healthcare booking system where patients can browse doctors, schedule appointments, and manage bookings. Includes role-based dashboards for patients, doctors, and admins, JWT authentication with refresh tokens, and a scalable backend architecture.",
+    image: DoctorBook,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "JWT",
+      "RBAC",
+      "Zod",
+      "Cloudinary",
+    ],
+    liveUrl: "",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Doctor-Booking-Systems",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: 38,
+    title: "Enterprise SaaS Platform (Multi-Tenant System)",
+    description:
+      "Production-ready SaaS platform built with Next.js 15. Features multi-tenant architecture, authentication (JWT + OAuth), role-based access control (RBAC), subscription billing system, API keys, webhooks, and a full admin dashboard.",
+    image: SaaSPlatfor,
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Neon",
+      "NextAuth",
+      "JWT",
+      "OAuth",
+      "RBAC",
+      "SaaS",
+      "Multi-Tenant",
+    ],
+    liveUrl: "https://saas-platform-lovat.vercel.app",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/saas-platform",
+    featured: true,
+    category: "Full Stack",
+  },
   {
     id: 37,
     title: "Scalable Auth System – Enterprise Authentication API",
@@ -321,7 +348,7 @@ export const PROJECTS = [
       "Tailwind CSS",
       "OpenRouter AI",
     ],
-    liveUrl: "https://nex-shop-alpha.vercel.app/",
+    liveUrl: "https://nex-shop-alpha.vercel.app",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/NexShop",
     featured: true,
     category: "Full_Stack",
@@ -341,7 +368,7 @@ export const PROJECTS = [
       "Tailwind CSS",
       "Zustand",
     ],
-    liveUrl: "https://cryptovision-frontend.vercel.app/",
+    liveUrl: "https://cryptovision-frontend.vercel.app",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/Cryptovision_frontend",
     featured: true,
     category: "Frontend",

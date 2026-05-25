@@ -118,7 +118,9 @@ const HeroSection = () => {
 
               {/* Social */}
               <motion.div variants={itemVariants} className="flex items-center space-x-6 justify-center gap-2">
-                {[{ icon: FiGithub, href: "#", label: "GitHub" }, { icon: FiLinkedin, href: "#", label: "LinkedIn" }, { icon: Mail, href: "#", label: "Email" }].map(
+                {[{ icon: FiGithub, href: "https://github.com/Mohamed-Sherif-Dev", label: "GitHub" }, 
+                { icon: FiLinkedin, href: "https://www.linkedin.com/in/mohammed-sherif-a57445363", label: "LinkedIn" }, 
+                { icon: Mail, href: "momh120130@gmail.com", label: "Email" }].map(
                   (social, index) => (
                     <motion.a
                       key={index}

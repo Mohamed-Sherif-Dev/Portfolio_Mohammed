@@ -36,7 +36,6 @@ import Backend2 from "../assets/images/backend2.jfif";
 import ProjectNext1 from "../assets/images/Home_Page.png";
 import ProjectRect from "../assets/images/learning-platform-frontend.png";
 import appointment from "../assets/images/appointmen.png";
-import safarni from "../assets/images/safarni.png";
 import BACKEND_ECOMMERCE from "../assets/images/backend-ecommerce.jpeg";
 import Devgigs from "../assets/images/devgigs.png";
 import ai_Task_Manager from "../assets/images/ai-Task.png";
@@ -126,10 +125,10 @@ export const TECH_STACK = [
 ];
 
 export const STATS = [
-  { number: "50+", label: "Projects Completed" },
+  { number: "35+", label: "Projects Completed" },
   { number: "3+", label: "Years Experience" },
   { number: "20+", label: "Technologies" },
-  { number: "100%", label: "Client Satisfaction" },
+  { number: "90%", label: "Client Satisfaction" },
 ];
 
 export const PROJECTS = [
@@ -613,9 +612,9 @@ export const PROJECTS = [
   },
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Personal Portfolio Website",
     description:
-      "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
+      "A responsive personal portfolio website built with React and Tailwind CSS. Showcases projects, skills, and experience with smooth animations and a modern design.",
     image: POROJECT_IMG_3,
     tags: ["React", "Tailwind", "Framer motion"],
     liveUrl: "#",
@@ -625,7 +624,7 @@ export const PROJECTS = [
   },
   {
     id: 8,
-    title: "E-Commerce Platform",
+    title: "Website-Project-Next-One",
     description:
       "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
     image: POROJECT_IMG_9,
@@ -637,7 +636,7 @@ export const PROJECTS = [
   },
   {
     id: 9,
-    title: "E-Commerce Platform",
+    title: "ECommerce Full Stack",
     description:
       "A full-stack e-commerce solution with advanced filtering, payment integration, and admin dashboard.",
     image: POROJECT_IMG_10,
@@ -648,34 +647,10 @@ export const PROJECTS = [
     category: "Full Stack",
   },
   {
-    id: 2,
-    title: "Blog App with AI Post Generator",
-    description:
-      "A full-stack blog app using the MERN stack – with full Markdown support and AI-generated posts.",
-    image: POROJECT_IMG_4,
-    tags: ["React", "Node.js", "MongoDB", "Tailwind"],
-    liveUrl: "https://youtu.be/tUnGudIBBI9",
-    githubUrl: "#",
-    featured: true,
-    category: "Full Stack",
-  },
-  {
-    id: 3,
-    title: "Task Management App",
-    description:
-      "Collaborative project management tool with real-time updates, team chat, and advanced analytics.",
-    image: POROJECT_IMG_5,
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: true,
-    category: "Web App",
-  },
-  {
     id: 4,
     title: "AI-Powered Interview Prep App",
     description:
-      "A smart AI-powered Interview Preparation App using the MERN stack – along with the Gemini AI API for mock interviews.",
+      "AI-powered interview preparation platform that generates practice questions, simulates technical interviews, and provides personalized feedback to improve candidate performance.",
     image: POROJECT_IMG_6,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
     liveUrl: "#",
@@ -685,12 +660,12 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    title: "Resume Builder App",
+    title: "Builder App",
     description:
-      "An intuitive resume builder application with live preview and customizable templates.",
+      "Interactive resume builder with live preview, customizable layouts, export functionality, and a user-friendly editing experience for creating professional CVs.",
     image: POROJECT_IMG_7,
     tags: ["React", "Tailwind", "Framer motion"],
-    liveUrl: "#",
+    liveUrl: "https://react-deploy-vercal.vercel.app/",
     githubUrl: "https://github.com/Mohamed-Sherif-Dev/react-deploy-vercal",
     featured: true,
     category: "Web App",
@@ -699,10 +674,10 @@ export const PROJECTS = [
     id: 6,
     title: "Expense Tracker App",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "Personal finance management application that helps users monitor income and expenses, categorize transactions, visualize spending habits, and generate financial insights.",
     image: POROJECT_IMG_8,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
-    liveUrl: "#",
+    liveUrl: "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
     githubUrl:
       "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
     featured: true,
@@ -712,19 +687,19 @@ export const PROJECTS = [
     id: 7,
     title: "Full-Satck-Doctors",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "Healthcare management platform that allows patients to browse doctors, schedule appointments, manage bookings, and track consultation history through a secure full-stack architecture.",
     image: POROJECT_IMG_11,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/Full-Satck-Doctors",
     featured: true,
     category: "Full stack",
   },
   {
     id: 8,
-    title: "Frontend-Ecommerce",
+    title: "ShopEase Frontend",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "Modern e-commerce storefront built with React and Tailwind CSS. Features product browsing, category filtering, shopping cart management, responsive design, and optimized user experience across all devices.",
     image: POROJECT_IMG_F15,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
     liveUrl: "#",
@@ -736,7 +711,7 @@ export const PROJECTS = [
     id: 9,
     title: "Backend-Ecommerce",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "RESTful backend API for e-commerce operations including authentication, product management, inventory handling, order processing, and secure user workflows.",
     image: POROJECT_IMG_b1,
     tags: ["javaScript", "Node.js", "MongoDB", "mongoose", "express"],
     liveUrl: "#",
@@ -760,7 +735,7 @@ export const PROJECTS = [
     id: 11,
     title: "Frontend-Ecommerce-SPORTS",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "A responsive React-based online store with reusable components, dynamic product listings, search functionality, and modern UI patterns focused on performance and usability.",
     image: POROJECT_IMG_13,
     tags: ["React", "Tailwind", "Framer motion", "JavaScript", "Supabase"],
     liveUrl: "#",
@@ -773,7 +748,7 @@ export const PROJECTS = [
     id: 12,
     title: "LuxeScent E-Commerce",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "Premium perfume e-commerce experience with elegant product showcases, advanced filtering, wishlist functionality, and a luxury-focused user interface.",
     image: POROJECT_IMG_14,
     tags: ["React", "Tailwind", "Framer motion", "JavaScript", "Supabase"],
     liveUrl: "#",
@@ -785,7 +760,7 @@ export const PROJECTS = [
     id: 9,
     title: "Backend-Ecommerce",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "Scalable Node.js backend architecture designed for online stores with modular routing, database integration, validation layers, and role-based access control.",
     image: Backend2,
     tags: ["javaScript", "Node.js", "MongoDB", "mongoose", "express"],
     liveUrl: "#",
@@ -795,9 +770,9 @@ export const PROJECTS = [
   },
   {
     id: 13,
-    title: "Frontend-Ecommerce_React",
+    title: "Modern Storefront",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "A responsive React-based online store with reusable components, dynamic product listings, search functionality, and modern UI patterns focused on performance and usability.",
     image: ProjectRect,
     tags: ["React", "Tailwind", "Framer motion", "JavaScript"],
     liveUrl: "https://learning-platform-frontend-dev1.vercel.app",
@@ -808,9 +783,9 @@ export const PROJECTS = [
   },
   {
     id: 14,
-    title: "Frontend-Ecommerce_Nextjs",
+    title: "NextCommerce",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "Next.js e-commerce frontend featuring server-side rendering, optimized image delivery, fast page loads, and a scalable architecture for online retail experiences.",
     image: ProjectNext1,
     tags: ["Next.js", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
     liveUrl: "https://website-project-next-one.vercel.app",
@@ -822,7 +797,7 @@ export const PROJECTS = [
     id: 15,
     title: "appointment-system",
     description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
+      "Appointment scheduling platform that enables users to book, update, and manage appointments through an intuitive calendar interface and real-time availability tracking.",
     image: appointment,
     tags: ["React", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
     liveUrl: "https://appointment-system-sepia.vercel.app",
@@ -831,20 +806,8 @@ export const PROJECTS = [
     category: "Training_Team",
   },
   {
-    id: 16,
-    title: "safarni",
-    description:
-      "This app includes user authentication with JWT, income and expense tracking, interactive charts, and analytics dashboard.",
-    image: safarni,
-    tags: ["React", "Tailwind", "Framer motion", "JavaScript", "TypeScript"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/Abdulrahmanfawzy/safarni",
-    featured: true,
-    category: "Training_Team",
-  },
-  {
     id: 17,
-    title: "Backend-Ecommerce",
+    title: "Commerce API",
     description:
       "Backend for an e-commerce platform with product management, user authentication, and order processing.",
     image: BACKEND_ECOMMERCE,
@@ -856,7 +819,7 @@ export const PROJECTS = [
 
 export const JOURNEY_STEPS = [
   {
-    year: "2021",
+    year: "2022",
     title: "Started Coding Journey",
     company: "Self-taught",
     description:
@@ -865,7 +828,7 @@ export const JOURNEY_STEPS = [
     color: "bg-blue-500",
   },
   {
-    year: "2022",
+    year: "2023",
     title: "First Internship",
     company: "TechStart Inc.",
     description:
@@ -874,17 +837,8 @@ export const JOURNEY_STEPS = [
     color: "bg-green-500",
   },
   {
-    year: "2022",
-    title: "Computer Science Degree",
-    company: "University of Technology",
-    description:
-      "Graduated with honors, specializing in web technologies and software engineering. Led the final year project on scalable web systems.",
-    icon: GraduationCap,
-    color: "bg-purple-500",
-  },
-  {
-    year: "2023",
-    title: "Full Stack Developer",
+    year: "2024",
+    title: "Full Stack Developer && Open Source Contributor",
     company: "Digital Solutions Ltd.",
     description:
       "Promoted to full-time developer role. Built end-to-end applications using MERN stack and led junior developers.",
@@ -892,7 +846,7 @@ export const JOURNEY_STEPS = [
     color: "bg-orange-500",
   },
   {
-    year: "2024",
+    year: "2025",
     title: "Freelance & Open Source",
     company: "Independent",
     description:
@@ -901,8 +855,8 @@ export const JOURNEY_STEPS = [
     color: "bg-pink-500",
   },
   {
-    year: "2025",
-    title: "Senior Developer",
+    year: "2026",
+    title: "Full Stack Developer && FRONTEND DEVELOPER",
     company: "Present",
     description:
       "Currently building innovative solutions and exploring new technologies like AI integration and advanced frontend frameworks.",
@@ -964,7 +918,7 @@ export const CONTACT_INFO = [
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Cairo, Egypt",
   },
   {
     icon: Mail,

@@ -60,6 +60,8 @@ import Swagger from "../assets/images/Swagger.png";
 import SaaSPlatfor from "../assets/images/SaaS-Platfor.png";
 import DoctorBook from "../assets/images/DoctorBook.png";
 import Platfrom from "../assets/images/Platfrom.png";
+import FlowSync from "../assets/images/FlowSync.png";
+
 export const SKILLS_CATEGORY = [
   {
     title: "Frontend",
@@ -132,6 +134,40 @@ export const STATS = [
 ];
 
 export const PROJECTS = [
+  {
+    id: 41,
+
+    title: "FlowSync AI | AI-Powered Project Management Dashboard",
+
+    description:
+      "Enterprise-grade AI-powered project management dashboard designed to streamline team collaboration, task organization, analytics, and productivity through an intuitive SaaS interface featuring Kanban boards, interactive dashboards, AI recommendations, notifications, and responsive user experience.",
+
+    image: FlowSync,
+
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "Framer Motion",
+      "Recharts",
+      "React Hook Form",
+      "Zod",
+      "Responsive",
+      "AI UI",
+      "Dashboard",
+    ],
+
+    liveUrl: "https://flow-sync-ai-frontend.vercel.app",
+
+    githubUrl: "https://github.com/Mohamed-Sherif-Dev/FlowSync-AI-Frontend",
+
+    featured: true,
+
+    category: "Frontend",
+  },
+
   {
     id: 40,
     title: "SupplyChain Pro – Supplier Relationship Platform",
@@ -677,7 +713,8 @@ export const PROJECTS = [
       "Personal finance management application that helps users monitor income and expenses, categorize transactions, visualize spending habits, and generate financial insights.",
     image: POROJECT_IMG_8,
     tags: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
-    liveUrl: "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
+    liveUrl:
+      "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
     githubUrl:
       "https://github.com/Mohamed-Sherif-Dev/BlinkIt-Clone-Full-Stack-Ecommerce-main",
     featured: true,
